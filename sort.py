@@ -7,7 +7,9 @@ args = sys.argv[1]
 
 # l = ['a', 'b', 'c', 'd']
 
+print("<textarea>")
 for i in range(len(args)+1):
     for v in itertools.permutations(args, i):
         print(''.join(v))
-        print("<br>")
+        # print("<br>")
+print("</textarea>")
