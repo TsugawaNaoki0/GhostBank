@@ -27,14 +27,9 @@
           <a href="./sort.php">並び替え</a>
         </h2>
       </div>
-      <div class="center">
-        <h2>
-          <a href="./search.php">検索</a>
-        </h2>
-      </div>
       <div class="right">
         <h2>
-          <a href="./register.php">登録</a>
+          <a href="./search.php">検索</a>
         </h2>
       </div>
     </div>
