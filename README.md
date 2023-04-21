@@ -6,7 +6,7 @@ mkdir html
 
 cd html
 
-git clone https://github.com/TsugawaNaoki0/GhostBank.git
+git clone https://github.com/TsugawaNaoki0/GhostCrub.git
 
-mv GhostBank/* .
+mv GhostCrub/* .
 
