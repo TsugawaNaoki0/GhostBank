@@ -3,13 +3,9 @@ import sys
 
 
 args = sys.argv[1]
-# print(args)
 
-# l = ['a', 'b', 'c', 'd']
-
-print("<textarea>")
+print("<textarea cols='25' rows='30'>")
 for i in range(len(args)+1):
     for v in itertools.permutations(args, i):
         print(''.join(v))
-        # print("<br>")
 print("</textarea>")

@@ -2,28 +2,44 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./home.css">
-    <title>SEARCH</title>
+    <link rel="stylesheet" href="./main.css">
+    <title>GhostCrub</title>
   </head>
   <body>
     <div class="main">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-        <br>
-        <br>
-        <hr>
-        <br>
-        <a href="./sort.php">並び替え</a>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="top">
+      <h1>Ghost Crab</h1>
     </div>
-
-  </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="middle">
+      <div class="left">
+        <h2>
+          <a href="./sort.php">並び替え</a>
+        </h2>
+      </div>
+      <div class="center">
+        <h2>
+          <a href="./search.php">検索</a>
+        </h2>
+      </div>
+      <div class="right">
+        <h2>
+          <a href="./register.php">登録</a>
+        </h2>
+      </div>
+    </div>
+    <br>
+    <br>
+  </div>
+ </body>
 </html>
