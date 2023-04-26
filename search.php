@@ -22,20 +22,7 @@
     <br>
     <hr>
     <div class="middle">
-      <form class="" action="" method="post">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <input type="text" name="text" value="" class="search">
-        <input type="submit" name="" value="検索" class="search_button">
-        <?php
-          $word = $_POST[text];
-          echo shell_exec("export LANG=ja_JP.UTF-8; python3 search.py ".$word);
-        ?>
-        <br>
-      </form>
+      <iframe src="./search_frame.php" width="700" height="100"></iframe>
     </div>
     <br>
     <center>

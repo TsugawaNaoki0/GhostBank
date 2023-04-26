@@ -22,29 +22,19 @@
     <br>
     <hr>
     <div class="middle">
-      <form class="" action="" method="post">
       <br>
       <br>
       <br>
       <br>
       <br>
       <br>
-      <input type="text" name="text" value="" class="sort">
-      <input type="submit" name="" value="実行" class="sort_button">
+      <iframe id="frametarget" src="sort_frame.php" width="700" height="100"></iframe>
       <br>
-      <?php
-        // $word = '123';
-        $word = $_POST[text];
-        $command="python3 sort.py ".$word;
-        echo shell_exec("export LANG=ja_JP.UTF-8; python3 sort.py ".$word);
-        // echo $command;
-        ?>
-      </form>
     </div>
       <br>
       <center>
-      <audio controls loop class="audio" src="./music/一途.mp3"></audio><br>
-      <img src="./cube.jpg" alt="" class="cube" width="20%">
+        <audio controls loop class="audio" src="./music/一途.mp3"></audio><br>
+        <img src="./cube.jpg" alt="" class="cube" width="20%">
       </center>
       <br>
       <br>
