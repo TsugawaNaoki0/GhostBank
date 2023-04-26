@@ -30,8 +30,7 @@
       <br>
       <br>
       <input type="text" name="text" value="" class="sort">
-      <input type="submit" name="" value="検索" class="sort_button">
-      <br>
+      <input type="submit" name="" value="実行" class="sort_button">
       <br>
       <?php
         // $word = '123';
@@ -40,12 +39,13 @@
         echo shell_exec("export LANG=ja_JP.UTF-8; python3 sort.py ".$word);
         // echo $command;
         ?>
-      　<br>
       </form>
     </div>
       <br>
-      <br>
-      <br>
+      <center>
+      <audio controls loop class="audio" src="./music/一途.mp3"></audio><br>
+      <img src="./cube.jpg" alt="" class="cube" width="20%">
+      </center>
       <br>
       <br>
       <br>

@@ -58,3 +58,99 @@ class deathnote_class():                    # クラス名、関数名は単語�
                 return "デスノート"           #　代表的なものを一つ決める
 
 # -----------------------------------------------------------------------
+class kinkyutorishirabeshitsu_class():                    # クラス名、関数名は単語と同じ
+    def kinkyutorishirabeshitsu(self, search_word):
+        path = "./data/kinkyutorishirabeshitsu"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "緊急取調室"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class amamiyuuki_class():                    # クラス名、関数名は単語と同じ
+    def amamiyuuki(self, search_word):
+        path = "./data/amamiyuuki"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "天海祐希"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class tanakatetsuji_class():                    # クラス名、関数名は単語と同じ
+    def tanakatetsuji(self, search_word):
+        path = "./data/tanakatetsuji"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "田中哲司"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class hayamimokomichi_class():                    # クラス名、関数名は単語と同じ
+    def hayamimokomichi(self, search_word):
+        path = "./data/hayamimokomichi"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "速水もこみち"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class suzukikousuke_class():                    # クラス名、関数名は単語と同じ
+    def suzukikousuke(self, search_word):
+        path = "./data/suzukikousuke"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "鈴木浩介"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class ookurakouji_class():                    # クラス名、関数名は単語と同じ
+    def ookurakouji(self, search_word):
+        path = "./data/ookurakouji"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "大倉孝二"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class takahashiissei_class():                    # クラス名、関数名は単語と同じ
+    def takahashiissei(self, search_word):
+        path = "./data/takahashiissei"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "高橋一生"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class rohan_au_louvre_class():                    # クラス名、関数名は単語と同じ
+    def rohan_au_louvre(self, search_word):
+        path = "./data/rohan_au_louvre"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "岸辺露伴"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------

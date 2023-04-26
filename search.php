@@ -37,9 +37,12 @@
         <br>
       </form>
     </div>
-      <br>
-      <br>
-      <br>
+    <br>
+    <center>
+    <audio controls loop class="audio" src="./music/undercover.mp3"></audio><br>
+    <br>
+    <img src="./keyboard.png" alt="" class="keyboard" width="40%">
+    </center>
       <br>
       <br>
       <br>
