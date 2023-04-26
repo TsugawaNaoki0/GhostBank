@@ -9,6 +9,7 @@
     <input type="text" name="text" value="" class="sort">
     <input type="submit" name="" value="実行" class="sort_button">
     <br>
+    <br>
     <?php
       $word = $_POST["text"];
       $command="python3 sort.py ".$word;
