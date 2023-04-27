@@ -5,25 +5,8 @@ import word_garage
 
 args = sys.argv[1]
 
-# word = args
-
-
-
 print("<br>")
 print("<br>")
-
-
-
-
-# for i in range(len(args)+1):
-#     for v in itertools.permutations(args, i):
-#         # print(v)
-#         # print(''.join(v))
-#         args = ''.join(v)
-
-
-
-
 
 aaa = word_garage.apple_class()
 word_aaa = aaa.apple(args)
