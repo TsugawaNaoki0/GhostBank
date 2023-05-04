@@ -187,7 +187,7 @@ class kobayashiakihiko_2024_class():                    # クラス名、関数�
             l[i] = l[i][:-1]
         for i in range(len(l)):
             if(search_word == l[i]):
-                return "小林明彦"           #　代表的なものを一つ決める
+                return "小林明彦(2024年度)"           #　代表的なものを一つ決める
 
 # -----------------------------------------------------------------------
 class yoshibahiroko_2024_class():                    # クラス名、関数名は単語と同じ
@@ -200,5 +200,29 @@ class yoshibahiroko_2024_class():                    # クラス名、関数名�
         for i in range(len(l)):
             if(search_word == l[i]):
                 return "葭葉裕子(2024年度)"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class annenjunji_2024_class():                    # クラス名、関数名は単語と同じ
+    def annenjunji_2024(self, search_word):
+        path = "./data/annenjunji_2024"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "安念潤司(2024年度)"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class juutouhou_class():                    # クラス名、関数名は単語と同じ
+    def juutouhou(self, search_word):
+        path = "./data/juutouhou"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "銃刀法"           #　代表的なものを一つ決める
 
 # -----------------------------------------------------------------------

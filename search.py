@@ -115,7 +115,7 @@ if (word_aao == "神奈川県知事選挙(2023年度)"):
 aap = word_garage.kobayashiakihiko_2024_class()
 word_aap = aap.kobayashiakihiko_2024(args)
 
-if (word_aap == "小林明彦"):
+if (word_aap == "小林明彦(2024年度)"):
     print("<a href='./box/kobayashiakihiko_2024.html'>" + str(word_aap) + "</a><br><br>")
 
 # 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -124,3 +124,17 @@ word_aaq = aaq.yoshibahiroko_2024(args)
 
 if (word_aaq == "葭葉裕子(2024年度)"):
     print("<a href='./box/yoshibahiroko_2024.html'>" + str(word_aaq) + "</a><br><br>")
+
+# 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+aar = word_garage.annenjunji_2024_class()
+word_aar = aar.annenjunji_2024(args)
+
+if (word_aar == "安念潤司(2024年度)"):
+    print("<a href='./box/annenjunji_2024.html'>" + str(word_aar) + "</a><br><br>")
+
+# 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+aas = word_garage.juutouhou_class()
+word_aas = aas.juutouhou(args)
+
+if (word_aas == "銃刀法"):
+    print("<a href='./box/juutouhou.html'>" + str(word_aas) + "</a><br><br>")
