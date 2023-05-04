@@ -38,7 +38,7 @@
      <center>
      <audio controls loop class="audio" src="./music/faded.mp3"></audio>
      <div class="bottom">
-       <img src="./BlueCrub.jpg" alt="" width="40%">
+       <img src="./BlueCrab.jpg" alt="" width="40%">
      </div>
      </center>
    </div>

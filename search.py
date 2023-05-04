@@ -96,3 +96,31 @@ word_aam = aam.rohan_au_louvre(args)
 
 if (word_aam == "岸辺露伴"):
     print("<a href='./box/rohan_au_louvre.html'>" + str(word_aam) + "</a><br><br>")
+
+# 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+aan = word_garage.tenkinoko_class()
+word_aan = aan.tenkinoko(args)
+
+if (word_aan == "天気の子"):
+    print("<a href='./box/tenkinoko.html'>" + str(word_aan) + "</a><br><br>")
+
+# 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+aao = word_garage.kanagawa_2023_class()
+word_aao = aao.kanagawa_2023(args)
+
+if (word_aao == "神奈川県知事選挙(2023年度)"):
+    print("<a href='./box/kanagawa_2023.html'>" + str(word_aao) + "</a><br><br>")
+
+# 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+aap = word_garage.kobayashiakihiko_2024_class()
+word_aap = aap.kobayashiakihiko_2024(args)
+
+if (word_aap == "小林明彦"):
+    print("<a href='./box/kobayashiakihiko_2024.html'>" + str(word_aap) + "</a><br><br>")
+
+# 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+aaq = word_garage.yoshibahiroko_2024_class()
+word_aaq = aaq.yoshibahiroko_2024(args)
+
+if (word_aaq == "葭葉裕子(2024年度)"):
+    print("<a href='./box/yoshibahiroko_2024.html'>" + str(word_aaq) + "</a><br><br>")

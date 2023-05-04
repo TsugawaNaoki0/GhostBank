@@ -22,7 +22,7 @@
     <br>
     <hr>
     <div class="middle">
-      <iframe src="./search_frame.php" width="700" height="100"></iframe>
+      <iframe src="./search_frame.php" width="700" height="120"></iframe>
     </div>
     <br>
     <center>

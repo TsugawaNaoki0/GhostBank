@@ -154,3 +154,51 @@ class rohan_au_louvre_class():                    # クラス名、関数名は�
                 return "岸辺露伴"           #　代表的なものを一つ決める
 
 # -----------------------------------------------------------------------
+class tenkinoko_class():                    # クラス名、関数名は単語と同じ
+    def tenkinoko(self, search_word):
+        path = "./data/tenkinoko"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "天気の子"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class kanagawa_2023_class():                    # クラス名、関数名は単語と同じ
+    def kanagawa_2023(self, search_word):
+        path = "./data/kanagawa_2023"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "神奈川県知事選挙(2023年度)"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class kobayashiakihiko_2024_class():                    # クラス名、関数名は単語と同じ
+    def kobayashiakihiko_2024(self, search_word):
+        path = "./data/kobayashiakihiko_2024"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "小林明彦"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
+class yoshibahiroko_2024_class():                    # クラス名、関数名は単語と同じ
+    def yoshibahiroko_2024(self, search_word):
+        path = "./data/yoshibahiroko_2024"                # パスを変える(単語と同じ)
+        with open(path) as f:
+            l = f.readlines()
+        for i in range(len(l)):
+            l[i] = l[i][:-1]
+        for i in range(len(l)):
+            if(search_word == l[i]):
+                return "葭葉裕子(2024年度)"           #　代表的なものを一つ決める
+
+# -----------------------------------------------------------------------
